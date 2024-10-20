@@ -17,8 +17,9 @@ Macouflage is a simple Python-based tool designed to spoof or anonymize the MAC 
   - `subprocess` (built-in)
 
 Install dependencies via pip:
-
+```bash
 pip install netifaces
+```
 
 ## Installation
 
