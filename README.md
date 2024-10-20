@@ -26,7 +26,7 @@ Clone the repository and install the required dependencies:
 ```bash
 git clone https://github.com/yourusername/macouflage.git
 cd macouflage
-pip install -r requirements.txt
+pip install netifaces
 ```
 ## Usage
 
