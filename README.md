@@ -1,4 +1,4 @@
-# Macouflage - MAC Address Spoofing Tool in Python
+# Mac Snoof - MAC Address Spoofing Tool in Python
 
 Macouflage is a simple Python-based tool designed to spoof or anonymize the MAC address of a network interface. It allows users to change their MAC address to a random one, spoof an address from a popular vendor, or revert to the original MAC address.
 
