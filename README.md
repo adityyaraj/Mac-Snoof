@@ -23,11 +23,11 @@ pip install netifaces
 ## Installation
 
 Clone the repository and install the required dependencies:
-
+```bash
 git clone https://github.com/yourusername/macouflage.git
 cd macouflage
 pip install -r requirements.txt
-
+```
 ## Usage
 
 Run the script and specify the network interface you'd like to spoof the MAC address for:
@@ -39,33 +39,33 @@ python macouflage.py
 1. **Check current MAC address:**
 
    This will print the current MAC address of the network interface.
-
+```bash
    python macouflage.py
-
+```
 2. **Spoof to a random MAC address:**
 
    This will change the MAC address to a randomly generated one.
-
+```bash
    python macouflage.py --random
-
+```
 3. **Spoof MAC address from the same vendor:**
 
    This keeps the vendor prefix intact and only changes the last three octets of the MAC address.
-
+```bash
    python macouflage.py --same-vendor
-
+```
 4. **Spoof MAC address from a popular vendor:**
-
    Spoofs the MAC to one of the popular vendors' addresses.
+```bash
 
    python macouflage.py --popular
-
+```
 5. **Revert to the original MAC address:**
 
    Reverts the MAC address back to the original, permanent hardware MAC.
-
+```bash
    python macouflage.py --revert
-
+```
 ## Command-line Arguments
 
 - `--interface`: Specify the network interface to target (e.g., `eth0`, `wlan0`).
@@ -77,9 +77,9 @@ python macouflage.py
 ## Example
 
 To spoof the MAC address of `eth0` with a random MAC:
-
+```bash
 python macouflage.py --interface eth0 --random
-
+```
 ## Notes
 
 - Running this script may require root privileges to change the MAC address, depending on your system configuration. You can run the script with `sudo` if necessary:
